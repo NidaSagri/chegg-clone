@@ -1,0 +1,588 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Aspira,FreeSans,Arimo,Droid Sans,Helvetica,Arial,sans-serif;
+
+}
+
+.hero{
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.hero h1{
+    font-size: 3.7rem;
+    font-weight: bold;
+    color: #333333;
+    width: 60%;
+    margin: auto;
+}
+
+.hero p{
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eb7100;
+    background: #eb7100;
+    color: #fff;
+    border-radius: 8px;
+    height: 60px;
+    line-height: 33px;
+    font-size: 1.125rem;
+    padding: 0 40px;
+    outline: none;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.btn:hover {
+    text-decoration: none !important;
+    transition: transform 200ms cubic-bezier(0.25, 0.1, 0.25, 1) 0ms;
+    transform: scale(1.05);
+    background-color: #d15b00;
+    color: #fff;
+}
+
+.imgContainer{
+margin: auto;
+display: flex;
+width: 80%;
+justify-content: space-between;
+}
+
+.imgContainer img{
+    width: 40%;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards {
+    background: #f2f4f7;
+    width: 80%;
+    display: flex;
+    list-style-type: none;
+}
+
+.cards li {
+    list-style-type: none;
+    text-align: center;
+    margin: 50px 0 50px 50px;
+    padding-right: 50px;
+    width: 33%;
+    border-right: 1px solid #d0d5dd;
+}
+
+.cards li:nth-child(3){
+border-right: none;
+}
+
+.cards img{
+    width: 50px;
+    margin-bottom: 2rem;
+}
+
+.cards .h-title {
+    color: #b65e1e;
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+
+
+
+.courses {
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+}
+
+.courses h2 {
+    font-size: 2rem;
+    width: 75%;
+    font-weight: 700;
+    color: #333333;
+}
+
+.courses .course-cards {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses .course-cards>a {
+    width: 30%;
+    margin: 15px 1px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 11px 11px 22px #d9d9d9, -11px -11px 22px #fff;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.courses .course-cards img {
+    height: 267px;
+    width: fit-content;
+}
+
+.courses .copy {
+    padding: 10px;
+}
+h3 {
+    font-size: 1.375rem;
+    color: #101828;
+    font-weight: bold;
+}
+
+.courses .copy .salary {
+    color: #b65e1e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.courses .copy span {
+    color: #667085;
+}
+
+.courses .top-title {
+    color: #101828;
+    margin: 20px 0;
+}
+
+.courses .skill {
+    background: #f2f4f7;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: .625rem;
+    margin-right: 10px;
+    flex: 0 0 auto;
+    max-width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #101828;
+}
+
+.frow {
+    display: flex;
+    flex-direction: row;
+}
+
+.fcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.employers-container{
+    background: #f2f4f7;
+    padding: 40px 0px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.employers-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+ul {
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex;
+}
+
+.employer > img{
+    width: 6rem;
+}
+
+.featured-skills {
+    width: 80%;
+    margin: auto;
+}
+
+.featured-skills h2 {
+    margin: 30px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.f-skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+
+.featured-skills .box {
+    border: 1px solid #eaecf0;
+    padding: 20px;
+    width:30%;
+    min-height: 300px;
+}
+
+.f-skills h3 {
+    margin-bottom: 20px;
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.f-skills .copy {
+    margin-bottom: auto;
+    padding-bottom: 10px;
+}
+
+
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.testimonials h2 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonials .box {
+    background: #f2f4f7;
+    padding: 20px;
+    margin: 1.2rem;
+    width: 30%;
+    min-height: 300px;
+    border-radius: 16px;
+}
+
+.testimonials .stars::before {
+    content: "★★★★★";
+    color: rgb(254, 200, 75);
+    display: block;
+    letter-spacing: 3px;
+}
+
+.testimonials .copy {
+    margin-bottom: auto;
+    padding: 15px 0;
+    font-size: 1.125rem;
+}
+
+.testimonials .student {
+    align-items: center;
+    margin-top: auto;
+}
+
+.testimonials .thumbnail {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.testimonials .student .fcol {
+    justify-content: space-evenly;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.testimonials .student .name {
+    font-weight: 600;
+}
+
+.testimonials .student p{
+    color: #667085;
+}
+
+
+/* footer */
+.chegg-footer {
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.chegg-footer nav {
+    display: flex;
+    padding: 30px 30px 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    border-top: 1px solid #ddd;
+    text-align: justify;
+    border-bottom: none;
+}
+
+.chegg-footer nav>div{
+    border-right: 1px solid #ccc;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.chegg-footer nav>div:last-child{
+    border: none;
+}
+
+.chegg-footer nav h4 {
+    font-size: 12px;
+    margin: 5px 0 10px;
+    font-weight: bold;
+    text-align: left;
+    color: #555;
+}
+
+.chegg-footer nav p {
+    line-height: 3px;
+    color: #555;
+}
+
+.disclaimer{
+    width: 80%;
+    margin: auto;
+}
+
+.disclaimer img{
+    width: 12rem;
+}
+
+.disclaimer p{
+    color: #555;
+}
+
+
+@media screen and  (max-width: 600px){
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 1.5rem;
+    }
+
+    .me-2{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .hero h1{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    
+    .hero p{
+        font-size: 1.4rem;
+    }
+
+    .imgContainer{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .imgContainer img {
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    .img2{
+        display: none;
+    }
+    
+    .btn {
+        padding: 2rem 3rem;
+        font-size: 1.4rem;
+    }
+
+    .features{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features li {
+        border-right: none;
+        border-bottom: 1px solid #d0d5dd;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 134%;
+    }
+
+    .cards .h-title{
+        font-size: 2rem;
+    }
+    .cards img{
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .cards .h-copy{
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .features li:last-child{
+        border-bottom: none;
+    }
+
+    .courses{
+        width: 110%;
+    }
+    .courses h2{
+        width: 100%;
+        font-size: 2.1rem;
+    }
+
+    .course-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses .course-cards img {
+        height: 310px;
+    }
+
+    .course-card{
+        width: 100%;
+    }
+
+    .courses .course-cards>a {
+        width: 102%;
+    }
+
+    .course-card h3{
+        font-size: 1.5rem;
+    }
+
+    .courses .copy .salary {
+        font-size: 1.8rem;
+    }
+    .courses .copy span {
+        font-size: 1.2rem;
+    }
+
+    .courses .top-title {
+        font-size: 1.2rem;
+    }
+
+    .courses .skill {
+        font-size: 1rem;
+    }
+
+    .employers-container{
+        width: 117%;
+        height: 700px;
+    }
+
+    .employers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .employer > img {
+        margin-bottom: 4rem;
+        width: 11rem;
+    }
+
+    .featured-skills{
+        width: 100%;
+    }
+
+    .f-skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .featured-skills .box {
+        width: 90%;
+    }
+
+    .featured-skills h2 {
+        font-size: 1.7rem;
+    }
+
+    .f-skills .copy {
+        font-size: 1.2rem;
+    }
+
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials .box {
+        width: 100%;
+        max-width: 400px;
+    }
+    .testimonials h2 {
+        font-size: 1.8rem;
+    }
+
+    .testimonials .copy {
+        font-size: 1.4rem;
+    }
+
+    .testimonials .student .name {
+        font-size: 1.2rem;
+    }
+
+    .testimonials .stars::before {
+        font-size: 2rem;
+    }
+    
+    .chegg-footer{
+        width: 100%;
+    }
+    .chegg-footer nav>div {
+        width: 100%;
+        border: none;
+    }
+
+    .chegg-footer nav h4 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .chegg-footer nav p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .disclaimer{
+        width: 100%;
+    }
+    .disclaimer p {
+        font-size: 1.2rem;
+    }
+    
+    .disclaimer img{
+        width: 15rem;
+    }
+}
